@@ -1,0 +1,10 @@
+del so\htmllocal\assets\*.png
+del so\htmllocal\pages\*.html
+del so\htmllocal\styles\*.css
+del so\htmllocal\scripts\*.js
+rd so\htmllocal\assets
+rd so\htmllocal\pages
+rd so\htmllocal\styles
+rd so\htmllocal\scripts
+rd so\htmllocal
+rd so

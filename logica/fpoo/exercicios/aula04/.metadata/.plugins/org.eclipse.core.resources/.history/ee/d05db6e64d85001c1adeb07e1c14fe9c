@@ -1,0 +1,22 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class ex09 {
+	public static Scanner entrada;
+	public static void main(String[] args) {
+		entrada = new Scanner(System.in);
+		
+		int v1, v2;
+		
+		System.out.print("Digite um número: ");
+		v1 = entrada.nextInt();
+		
+		System.out.print("Digite outro número: ");
+		v2 = entrada.nextInt();
+		
+		System.out.print("A soma de " + v1 + " e " + v2 + " é = " + (v1+v2));
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class ex07 {
+	public static Scanner entrada;
+	public static void main(String[] args) {
+		entrada = new Scanner (System.in);
+		
+		System.out.println("Aqui eu vou te ajudar a calcular a densidade para você, vamos lá?");
+		
+
+	}
+
+}

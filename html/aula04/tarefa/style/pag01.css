@@ -1,0 +1,19 @@
+body{
+	background-image: url('../img/fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+table{
+	margin-left: 40%;
+	justify-content: center;
+	margin-top: 20%;
+	font-family: arial;
+}
+h1{
+	font-family: arial;
+	text-align: center;
+}
+td{
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+*{ /*esta forma altera TODO o conteúdo do html*/
+	margin:0;
+	padding:0;
+
+}
+body{
+	background-color: #ffcffd;
+	height: 100%; /*aqui eu defino que o background pegue a página toda, para não cortar ao meio*/
+}
+.titulo{ /*.nome da classe, se fosse div seria #*/
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px;	/*quando define só um valor, ele pega todos os lados, sequência: em cima embaixo, depois aos lados, 1° cima, 2° 
+					direita, 3° embaixo, 4° esquerda, sentido horário. Pode colocar 0 na sequência que não quer*/
+}
+button{
+	margin: 15px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: white;
+}

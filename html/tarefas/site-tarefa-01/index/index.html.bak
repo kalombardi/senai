@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title> Tutorial de HTML</title>
+	</head>
+	<body>
+	<p><a name="topo"></a>
+		<h2 align="center"><font color="red" face="arial"><a href="../index/index.html">Tutorial de HTML</a></font></h2>
+		<br />
+		<p align="justify">
+		<font face="arial" >Por esta altura você já deve ter reservado o seu domínio e já deve ter encontrado um serviço de hospedagem para o seu site. <br />
+		Se você não está muito interessado em aprender HTML para criar as suas páginas, não se preocupe, muitos serviços de hospedagem disponibilizam software de criação de sites de uso fácil, tornando o processo muito simples. Através do próprio serviço de hospedagem poderá construir rápidamente um site, com apenas alguns cliques, sem que seja preciso saber HTML. Verifique se o seu serviço de hospedagem lhe proporciona estas ferramentas ou então, se ainda não tem hospedagem, certifique-se que escolhe um serviço de hospedagem que inclua uma ferramenta de criação de páginas web.<br />
+		Mas, se você está com vontade de aprender HTML, ainda bem para si! É sempre vantajoso saber HTML, ou pelo menos ter umas bases.
+		</font>
+		</p>
+	</p>
+	<br />
+		<h3><font face="arial">Noções Básicas</h3>
+	<p align="justify">
+		O código HTML é composto por TAGS (ou comandos), que são usadas no inicio e no final do texto que vai ser afectado pelo código. <br />
+		Uma tag de inicio é por exemplo a tag &ltb&gt que é usada para colocar uma porção de texto em negrito. A tag de fecho correspondente será &lt/b&gt que será usada no final desse texto que queremos formatar. <br />
+		Assim, se quisermos colocar em negrito a palavra "Olá!" na frase abaixo, então o código HTML fica: &ltb&gt Olá! &lt/b&gt O meu nome é Cátia.<br />
+		E o resultado será: <b>Olá!</b> O meu nome é Cátia.
+		
+	</p>
+	<br />
+		<h3><font face="arial">Estrutura Básica do Código HTML de um Documento</h3>
+	<p align="justify">
+		Comece por definir o layout básico do documento. Pode copiar e colar este código no "Bloco de Notas" ou outro editor de texto:<br />
+		&lthtml&gt<br/>
+		&lthead&gt<br />
+		&lttitle&gtTítulo da sua página&lt/title&gt <br />
+		&lt;meta name="description" content="Breve descrição da sua página"&gt <br />
+		&ltmeta name="keywords" content="Palavras chave da sua página"&gt <br />
+		&lt/head&gt<br />
+		&ltbody&gt<br />
+		<p>Nesta área fica tudo aquilo que se visualiza no navegador da internet, texto e imagens, juntamente com todos as tags HTML de formatação.
+		</p>
+		< /body><br />
+		< /html><br />
+		<p align="justify">
+		As tags < html> e < /html> dizem ao navegador de internet aonde começa e aonde acaba o código HTML. <br /><br />
+		As tags < title> e < /title> dizem ao browser qual é o título da página. O título pode ser visto identificando o respectivo separador no seu navegador de internet. O texto que for definido entre estas tags também é normalmente o texto que é usado como título pelos motores de busca quando apresentam as páginas nos resultados de uma pesquisa.<br /><br />
+		A tag < meta name="description" ...> é informação que pode ser útil para os motores de busca. Eles podem usar o que você escreveu na descrição para descrever a página quando ela é apresentada nos resultados de uma pesquisa. Ou então, por vezes, os motores de busca usam também uma porção aleatória do que estiver no < body> da sua página.<br /><br />
+		A tag < meta name="keywords" ...> também pode ser usada pelos motores de busca na indexação da página. Coloque as palavras chave separadas por virgulas no interior desta tag.<br /><br />
+		Entre as tags < body> e < /body> é colocado o conteúdo da página, que é o que é visualizado no browser.<br /><br />
+		Após inserir os códigos HTML e o conteúdo pretendido, deve-se guardar o ficheiro com a extensão ".html". Ou seja, damos-lhe um nome e acrescentamos a extensão ".html". Ficariamos por exemplo com o ficheiro "index.html". Depois disso, para visualizar a página no browser basta clicar sobre o ficheiro.<br /><br />
+		</p>
+		
+	<h5><font color="red" face="arial">Voltar ao Topo</font><a href="#topo"><img src="../imagens/Seta.png" height="10px" width="10px"/></a></h5>
+	<p>
+		<h5><font color="red" face="arial">Ir para Tags Básicas para Fonte e Texto<a href="../pg01/tags.html"><img src="../imagens/Seta.png" height="10px" width="10px"/></a></font></h5>
+	</p>
+		<p>
+		<h5><font color="red" face="arial">Ir para Imagens de Fundo e Cores de Fundo<a href="../pg02/imagens-fundo.html"><img src="../imagens/Seta.png" height="10px" width="10px"/></a></font></h5>
+	</p>
+	<p>
+		<h5><font color="red" face="arial">Ir para Links<a href="../pg03/links.html"><img src="../imagens/Seta.png" height="10px" width="10px"/></a></font></h5>
+	</p>
+	</body>
+</html>
