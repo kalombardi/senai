@@ -1,3 +1,5 @@
+package exercicio;
+
 import java.io.IOException;
 import java.util.Scanner;
 
