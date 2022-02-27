@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+}
+
+body{
+    background-color: #8ab374;
+    height: 100vh;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 80px;
+    padding: 0 15px;
+}
+
+nav{
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: auto;
+    background-color: #562d0b;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 14%;
+    color: #fff;
+    background-color: #8ab374;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 2em;
+}
+
+header img{
+    height: 40%;
+}
+
+.logo{
+    height: 80%;
+}
+
+.login{
+    font-size: 24px;
+    color: #000;
+}
+
+header div{
+    background-color: #fff;
+    border-radius: 15px;
+    height: 55px;
+    width: 500px;
+}
+
+.txtBarra{
+    float: left;
+    background-color: transparent;
+    padding: 17px;
+    border: none;
+    font-size: 18px;
+}
+
+.btnBusca{
+    float: right;
+    height: 50%;
+    margin: 14px 18px 0 0;
+    transform: rotateY(180deg);
+}
+
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.opcoes{
+    height: 25px;
+    width: 120px;
+    font-size: 22px;
+}
+
+.meio{
+    display: flex;
+    height: 67.5%;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 20%;
+    margin: 5px;
+}
+
+ul{
+    border: 1px solid #8ab374;
+    width: 60%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+content{
+    display:flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 3%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.produtos{
+    width: 100%;
+    padding: 1%;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+.name{
+    display: flex;
+    background-color: #8ab374;
+    height: 25px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #562d0b;
+    height: 10.8%;
+}
+
+footer div{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+footer div p{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
